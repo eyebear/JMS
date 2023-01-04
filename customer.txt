@@ -1,0 +1,2 @@
+1|Fred|Fish|8885551212|Visa|49927398716|123 Any Street|Burnaby|V5G 3A1
+2|Albert|Chu|8001230987|Debit|1234567|4027 West 49th Street|Vancouver|V7A 2H8

@@ -1,0 +1,205 @@
+2012-06-29 23:31:32,535 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:32,535 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:32,535 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:32,551 [main] INFO  a00754887.assignment2.control.Controller - constructing Assignment2 object
+2012-06-29 23:31:32,551 [main] DEBUG a00754887.assignment2.data.DAO - load driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2012-06-29 23:31:33,097 [main] DEBUG a00754887.assignment2.data.DAO - connect to DB: jdbc:sqlserver://Beangrinder.bcit.ca ; javastudent ; compjava
+2012-06-29 23:31:33,097 [main] INFO  a00754887.assignment2.control.Controller - connection success
+2012-06-29 23:31:33,097 [main] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_INVENTORY exists
+2012-06-29 23:31:33,300 [main] INFO  a00754887.assignment2.data.CustomerDAO - A00754887_INVENTORY already exists in checkForInvTable
+2012-06-29 23:31:33,300 [main] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_CUSTOMER exists
+2012-06-29 23:31:33,409 [main] INFO  a00754887.assignment2.data.CustomerDAO - A00754887_CUSTOMER already exists in checkForCusTable
+2012-06-29 23:31:33,409 [main] INFO  a00754887.assignment2.control.Controller - done check table in establishDBConnection
+2012-06-29 23:31:33,629 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:33,738 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:33,738 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:33,738 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:33,753 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:35,111 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - itemDetailButton or mntmInventory button pressed
+2012-06-29 23:31:35,111 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:35,111 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:35,111 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:35,111 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:35,126 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:35,126 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:35,126 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:35,126 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:35,143 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:36,127 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.InventoryDialog - save button pressed
+2012-06-29 23:31:36,127 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - update query to update Inventory object in updateInvData
+2012-06-29 23:31:36,127 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: UPDATE A00754887_INVENTORY SET make = 'Alpine11' , description = 'AAS143' , modelNumber = 'Alto Sax' , SKU = '198490' , quantityInStock = 18 , quantitySold = 40 , purchasePrice = 426.69 , retailPrice = 795.0 , numberRented = 35 WHERE SKU = '198490';
+2012-06-29 23:31:36,142 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done updating Inventory in updateInvData
+2012-06-29 23:31:36,142 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - try to repaint combobox
+2012-06-29 23:31:36,142 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:36,142 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:36,142 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:36,159 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:36,159 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - try to done combobox
+2012-06-29 23:31:37,235 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - itemDetailButton or mntmInventory button pressed
+2012-06-29 23:31:37,235 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:37,235 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:37,235 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:37,251 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:37,251 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:37,251 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:37,251 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:37,251 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:37,267 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:41,589 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - customerDetailButton or mntmCustomers button pressed
+2012-06-29 23:31:41,589 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:43,212 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - find button pressed
+2012-06-29 23:31:43,212 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:31:43,212 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:31:43,212 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:31:43,228 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:31:44,368 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - new button pressed
+2012-06-29 23:31:44,368 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:31:44,368 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:31:44,368 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:31:44,384 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:31:45,087 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - cancel button pressed
+2012-06-29 23:31:46,960 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - drop inventory button pressed
+2012-06-29 23:31:46,960 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - dropTable: DROP TABLE A00754887_INVENTORY
+2012-06-29 23:31:46,991 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - drop inventory table from database in dropInventoryTable
+2012-06-29 23:31:46,992 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_INVENTORY exists
+2012-06-29 23:31:47,211 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to creat A00754887_INVENTORY table in checkForCusTable in checkForCusTable
+2012-06-29 23:31:47,211 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - createTable: CREATE TABLE A00754887_INVENTORY (make varchar(50),description varchar(50),modelNumber varchar(50),SKU varchar(50),quantityInStock int,quantitySold int,purchasePrice decimal(7, 2),retailPrice decimal(7, 2),numberRented int);
+2012-06-29 23:31:47,226 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - finish create inventory table and start to populate inventory database with inventory data in checkForInvTable
+2012-06-29 23:31:47,226 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to read Inventory file in readInventoryFile
+2012-06-29 23:31:47,226 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to read Inventory file in readInventoryFile
+2012-06-29 23:31:47,226 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new Inventory into database in saveNewInvData
+2012-06-29 23:31:47,226 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_INVENTORY (make, description, modelNumber, SKU, quantityInStock, quantitySold, purchasePrice, retailPrice, numberRented)VALUES('Planet Waves','1ORD2-5','Superpicks','301075','1000','3154','1.25','4.5','0');
+2012-06-29 23:31:47,257 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewInvData
+2012-06-29 23:31:47,257 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new Inventory into database in saveNewInvData
+2012-06-29 23:31:47,257 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_INVENTORY (make, description, modelNumber, SKU, quantityInStock, quantitySold, purchasePrice, retailPrice, numberRented)VALUES('Alpine','AAS143','Alto Sax','198490','18','40','426.69','795.0','35');
+2012-06-29 23:31:47,257 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewInvData
+2012-06-29 23:31:47,257 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new Inventory into database in saveNewInvData
+2012-06-29 23:31:47,257 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_INVENTORY (make, description, modelNumber, SKU, quantityInStock, quantitySold, purchasePrice, retailPrice, numberRented)VALUES('Orange','BT1000-H','Amplifier','319578','12','7','405.58','899.0','2');
+2012-06-29 23:31:47,273 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewInvData
+2012-06-29 23:31:47,273 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new Inventory into database in saveNewInvData
+2012-06-29 23:31:47,273 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_INVENTORY (make, description, modelNumber, SKU, quantityInStock, quantitySold, purchasePrice, retailPrice, numberRented)VALUES('Danelectro','D56BASS-AQUA','Bass','336177','25','43','250.15','395.0','1');
+2012-06-29 23:31:47,289 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewInvData
+2012-06-29 23:31:47,289 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new Inventory into database in saveNewInvData
+2012-06-29 23:31:47,289 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_INVENTORY (make, description, modelNumber, SKU, quantityInStock, quantitySold, purchasePrice, retailPrice, numberRented)VALUES('Korg','X50','X50 Music Synthesizer','241473','8','3','575.0','735.0','2');
+2012-06-29 23:31:47,304 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewInvData
+2012-06-29 23:31:47,304 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done populate inventory database with inventory data in checkForInvTable
+2012-06-29 23:31:47,304 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - try to repaint combobox
+2012-06-29 23:31:47,304 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:47,304 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:47,304 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:47,320 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:47,320 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - try to done combobox
+2012-06-29 23:31:48,460 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - drop customer button pressed
+2012-06-29 23:31:48,460 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - dropTable: DROP TABLE A00754887_CUSTOMER
+2012-06-29 23:31:48,475 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - drop customer table from database in dropCustomerTable
+2012-06-29 23:31:48,475 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_CUSTOMER exists
+2012-06-29 23:31:48,695 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to creat A00754887_CUSTOMER table in checkForCusTable in checkForCusTable
+2012-06-29 23:31:48,695 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - createTable: CREATE TABLE A00754887_CUSTOMER (customerNumber varchar(50),firstName varchar(50),lastName varchar(50),phoneNumber varchar(50),cardType int,creditCardNumber varchar(50),street varchar(50),city varchar(50),postalCode varchar(50));
+2012-06-29 23:31:48,710 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - finish create Customer table and start to populate Customer database with Customer data in checkForCusTable
+2012-06-29 23:31:48,710 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to read customer file in readCustomerFile
+2012-06-29 23:31:48,710 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to read customer file in readCustomerFile
+2012-06-29 23:31:48,710 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new customer into database in saveNewCusData
+2012-06-29 23:31:48,710 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_CUSTOMER (customerNumber, firstName, lastName, phoneNumber, cardType, creditCardNumber, street, city, postalCode)VALUES('1','Fred','Fish','8885551212','4','49927398716','123 Any Street','Burnaby','V5G 3A1');
+2012-06-29 23:31:48,741 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewCusData
+2012-06-29 23:31:48,741 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - insert query to insert new customer into database in saveNewCusData
+2012-06-29 23:31:48,741 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - updateDatabase: INSERT INTO A00754887_CUSTOMER (customerNumber, firstName, lastName, phoneNumber, cardType, creditCardNumber, street, city, postalCode)VALUES('2','Albert','Chu','8001230987','2','1234567','4027 West 49th Street','Vancouver','V7A 2H8');
+2012-06-29 23:31:48,741 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done executing insert query in saveNewCusData
+2012-06-29 23:31:48,741 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done populate Customer database with Customer data in checkForCusTable
+2012-06-29 23:31:49,678 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - customerDetailButton or mntmCustomers button pressed
+2012-06-29 23:31:49,678 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:50,803 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - find button pressed
+2012-06-29 23:31:50,803 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:31:50,803 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:31:50,803 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:31:50,818 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:31:52,301 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - new button pressed
+2012-06-29 23:31:52,301 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:31:52,301 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:31:52,301 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:31:52,317 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:31:53,255 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - cancel button pressed
+2012-06-29 23:31:53,848 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - itemDetailButton or mntmInventory button pressed
+2012-06-29 23:31:53,848 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:53,848 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:53,848 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:53,863 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:53,863 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:31:53,863 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:31:53,863 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:53,863 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:31:53,879 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:31:59,887 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - exit button pressed
+2012-06-29 23:31:59,887 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.DAO - closeDBConnection
+2012-06-29 23:31:59,887 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - DB connection is closed in establishDBConnection
+2012-06-29 23:33:02,467 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:33:02,467 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:33:02,467 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:33:02,467 [main] INFO  a00754887.assignment2.control.Controller - constructing Assignment2 object
+2012-06-29 23:33:02,467 [main] DEBUG a00754887.assignment2.data.DAO - load driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2012-06-29 23:33:03,028 [main] DEBUG a00754887.assignment2.data.DAO - connect to DB: jdbc:sqlserver://Beangrinder.bcit.ca ; javastudent ; compjava
+2012-06-29 23:33:03,028 [main] INFO  a00754887.assignment2.control.Controller - connection success
+2012-06-29 23:33:03,028 [main] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_INVENTORY exists
+2012-06-29 23:33:03,262 [main] INFO  a00754887.assignment2.data.CustomerDAO - A00754887_INVENTORY already exists in checkForInvTable
+2012-06-29 23:33:03,262 [main] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_CUSTOMER exists
+2012-06-29 23:33:03,388 [main] INFO  a00754887.assignment2.data.CustomerDAO - A00754887_CUSTOMER already exists in checkForCusTable
+2012-06-29 23:33:03,388 [main] INFO  a00754887.assignment2.control.Controller - done check table in establishDBConnection
+2012-06-29 23:33:03,669 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:33:03,794 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:33:03,794 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:33:03,794 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:33:03,809 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:33:06,399 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - choose no in save panel
+2012-06-29 23:33:06,399 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.DAO - closeDBConnection
+2012-06-29 23:33:06,399 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - DB connection is closed in establishDBConnection
+2012-06-29 23:34:07,098 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:34:07,098 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:34:07,098 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:34:07,098 [main] INFO  a00754887.assignment2.control.Controller - constructing Assignment2 object
+2012-06-29 23:34:07,098 [main] DEBUG a00754887.assignment2.data.DAO - load driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2012-06-29 23:34:07,613 [main] DEBUG a00754887.assignment2.data.DAO - connect to DB: jdbc:sqlserver://Beangrinder.bcit.ca ; javastudent ; compjava
+2012-06-29 23:34:07,613 [main] INFO  a00754887.assignment2.control.Controller - connection success
+2012-06-29 23:34:07,613 [main] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_INVENTORY exists
+2012-06-29 23:34:07,800 [main] INFO  a00754887.assignment2.data.CustomerDAO - A00754887_INVENTORY already exists in checkForInvTable
+2012-06-29 23:34:07,800 [main] DEBUG a00754887.assignment2.data.DAO - check if table A00754887_CUSTOMER exists
+2012-06-29 23:34:07,910 [main] INFO  a00754887.assignment2.data.CustomerDAO - A00754887_CUSTOMER already exists in checkForCusTable
+2012-06-29 23:34:07,910 [main] INFO  a00754887.assignment2.control.Controller - done check table in establishDBConnection
+2012-06-29 23:34:08,128 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:34:08,207 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2012-06-29 23:34:08,207 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2012-06-29 23:34:08,207 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
+2012-06-29 23:34:08,238 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve Inventory data in retrieveInvData
+2012-06-29 23:34:09,736 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - customerDetailButton or mntmCustomers button pressed
+2012-06-29 23:34:09,736 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:34:11,547 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - new button pressed
+2012-06-29 23:34:11,547 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:34:11,547 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:34:11,547 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:34:11,563 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:34:12,781 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - find button pressed
+2012-06-29 23:34:12,781 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:34:12,781 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:34:12,781 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:34:12,796 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:34:15,653 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - clear button pressed
+2012-06-29 23:34:16,309 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - cancel button pressed
+2012-06-29 23:34:17,121 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - customerDetailButton or mntmCustomers button pressed
+2012-06-29 23:34:17,121 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2012-06-29 23:34:17,871 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - find button pressed
+2012-06-29 23:34:17,871 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Customer list in retrieveCustomerList
+2012-06-29 23:34:17,871 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve customer data in retrieveCusData
+2012-06-29 23:34:17,871 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_CUSTOMER
+2012-06-29 23:34:17,887 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - done to retrieve customer data in retrieveCusData
+2012-06-29 23:34:18,620 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.CustomerDialog - cancel button pressed
+2012-06-29 23:34:20,557 [AWT-EventQueue-0] INFO  a00754887.assignment2.ui.MainFrame - choose no in save panel
+2012-06-29 23:34:20,557 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.DAO - closeDBConnection
+2012-06-29 23:34:20,557 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - DB connection is closed in establishDBConnection
+2023-01-03 20:12:33,160 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2023-01-03 20:12:33,160 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2023-01-03 20:12:33,160 [main] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2023-01-03 20:12:33,161 [main] INFO  a00754887.assignment2.control.Controller - constructing Assignment2 object
+2023-01-03 20:12:33,161 [main] DEBUG a00754887.assignment2.data.DAO - load driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2023-01-03 20:12:33,404 [main] ERROR a00754887.assignment2.control.Controller - SQL exception in establishDBConnection
+2023-01-03 20:12:33,603 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - controller instance is retrieved in getControllerInstance
+2023-01-03 20:12:33,655 [AWT-EventQueue-0] INFO  a00754887.assignment2.control.Controller - retrieve Inventory list in retrieveInventoryList
+2023-01-03 20:12:33,656 [AWT-EventQueue-0] INFO  a00754887.assignment2.data.CustomerDAO - try to retrieve Inventory data in retrieveInvData
+2023-01-03 20:12:33,656 [AWT-EventQueue-0] DEBUG a00754887.assignment2.data.DAO - queryDatabase: SELECT * FROM A00754887_INVENTORY
