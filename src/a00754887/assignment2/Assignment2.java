@@ -19,7 +19,7 @@ import a00754887.assignment2.ui.MainFrame;
  * @author AoAo_Feng
  * 
  */
-public class Assignment2 {
+public class Assignment2 { 
 
 	private static Logger LOG = Logger.getLogger(Controller.class);
 	private Controller ctr = Controller.getControllerInstance();
