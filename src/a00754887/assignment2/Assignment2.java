@@ -33,7 +33,7 @@ public class Assignment2 {
 		PropertyConfigurator.configure("LabLogging.properties");
 		new Assignment2();
 	}
-
+ 
 	/** 
 	 * this is the constructor of the class which imports data from txt files,
 	 * and creates a main frame
